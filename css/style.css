@@ -1,0 +1,309 @@
+/* global Css are here */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", Sans-serif;
+}
+
+.first-color {
+    color: #282828;
+}
+
+.second-color {
+    color: #393939;
+}
+
+.black-button {
+    background-color: #000000;
+    font-size: 15px;
+    padding: 12px 24px;
+    border-radius: 3px;
+    color: #fff;
+    fill: #fff;
+    text-align: center;
+    transition: all .3s;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    line-height: 22.4px;
+    padding: 19px 54px 20px 53px;
+    text-transform: uppercase;
+}
+
+.black-button:hover {
+    background-color: #ffc634;
+}
+
+.white-button {
+    background-color: #ffffff;
+    font-size: 15px;
+    padding: 12px 24px;
+    border-radius: 3px;
+    color: #000;
+    fill: #fff;
+    text-align: center;
+    transition: all .3s;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    line-height: 22.4px;
+    padding: 19px 54px 20px 53px;
+    text-transform: uppercase;
+    border: 1px solid #000;
+}
+
+.white-button:hover {
+    background-color: #ffc634;
+    border: 1px solid #ffc634;
+}
+
+.work-section {
+    border-bottom: 1px solid #000;
+    padding-bottom: 60px;
+}
+
+/* Hero Section design are here */
+.hero-heading {
+    font-size: 62px;
+    font-weight: 900;
+}
+
+.hero-paragraph {
+    font-size: 18px;
+}
+
+.hero-message {
+    font-size: 15px;
+}
+
+.fa-play {
+    font-size: 32px;
+    background-color: #d1d1d1;
+    padding: 18px;
+    color: #4D4D4D;
+    border-radius: 50%;
+    margin: 0px 10px;
+}
+
+.hero-portfolio-link {
+    font-size: 18px;
+    transition: .03s;
+}
+
+.hero-portfolio-link:hover {
+    color: #000000;
+}
+
+.logo-branding .item img {
+    width: 120px;
+}
+
+/* Bussiness Goals Css are here */
+.bussiness-line-draw {
+    padding: 1px;
+    background: #333333;
+}
+
+.bussiness-heading {
+    font-family: "Poppins", Sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 60px;
+    letter-spacing: 0px;
+    word-spacing: 2px;
+}
+
+.bussiness-paragraph {
+    color: #393939;
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.bussiness-short-title {
+    color: #282828;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 30px;
+}
+
+.bussiness-short-title-two {
+    text-align: center;
+    color: #393939;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 22px;
+}
+
+.bussiness-secondary-heading {
+    font-size: 45px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-style: normal;
+    line-height: 60px;
+    letter-spacing: 0px;
+}
+
+.bussiness-secondary-pragraph {
+    color: #393939;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24.8px;
+}
+
+.accordion-title-cus {
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 27px;
+}
+
+.accordion-button::after {
+    color: red;
+}
+
+.accordion {
+    --bs-accordion-border-color: #000000 !important;
+    --bs-accordion-btn-icon-width: 16px !important;
+}
+
+.accordion-button:not(.collapsed) {
+    background: none !important;
+    border: none !important;
+}
+
+.accordion-button:focus {
+    box-shadow: none !important;
+}
+
+.accordion-inner-text {
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 21.7px;
+    color: #000000;
+}
+
+.accordion-flush .accordion-item:last-child {
+    border-bottom: 1px solid #000 !important;
+}
+
+/* Work section are here */
+.work-line-draw {
+    padding: 2px;
+    background: #d9d9d9;
+    margin-top: 18px !important;
+}
+
+.work-heading {
+    color: #282828;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 30px;
+}
+
+.work-short-title {
+    color: #393939;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+/* Letast Project code here */
+.latest-heading {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 47.08px;
+}
+
+/* Trial Section Code here */
+.trial-section {
+    padding: 40px 0px;
+    background-color: #282828;
+    background-image: url("../media/background/Mask-group.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.trial-section-heading {
+    color: #FFFFFF;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 80.7px;
+}
+
+.trial-section-title {
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21.52px;
+}
+
+.trial-section-paragraph {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.trail-section-line {
+    height: 4px;
+    background: #FFFFFF;
+}
+
+/* form code here */
+.form-lebal {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+
+.file {
+    opacity: 0;
+    width: 0.1px;
+    height: 0.1px;
+    position: absolute;
+}
+
+.file-input label {
+    position: relative;
+    width: 200px;
+    height: 50px;
+    background: #eaeaea;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-weight: 400;
+    cursor: pointer;
+    transition: transform .2s ease-out;
+}
+
+.form-desc {
+    color: #000000;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18.3px;
+}
+
+/* Founders Section are here */
+.founders-heading {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 47.08px;
+}
